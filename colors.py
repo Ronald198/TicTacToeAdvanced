@@ -1,0 +1,127 @@
+class ConsoleColors:
+    RESET = "\033[0m";  # Text Reset
+
+    ERASE = "\033[H\033[2J";
+    
+    HIDDEN = "\033[8;30m";
+    
+    #Creates a black box around the word
+    BOXING = "\033[0;51m";   # BLACK
+
+    #This will create a black background and make the text previous color
+    #Unless color black, then it will make it white
+    TEXT_BACKGROUND = "\033[0;7m";   # BLACK
+    
+    # Regular Colors
+    BLACK = "\033[0;30m";   # BLACK
+    RED = "\033[0;31m";     # RED
+    GREEN = "\033[0;32m";   # GREEN
+    YELLOW = "\033[0;33m";  # YELLOW
+    BLUE = "\033[0;34m";    # BLUE
+    PURPLE = "\033[0;35m";  # PURPLE
+    CYAN = "\033[0;36m";    # CYAN
+    WHITE = "\033[0;37m";   # WHITE
+    LIGHT_PURPLE = "\033[38;2;200;0;200m"; #LIGHT PURPLE
+    TEAL = "\033[38;2;0;225;221m"; #TEAL
+    ORANGE = "\033[38;2;225;153;0m"; #ORANGE
+    LIGHT_GREEN = "\033[38;2;136;255;0m"; #LIGHT GREEN
+    LIGHT_BLUE = "\033[38;2;120;172;255m"; #LIGHT BLUE
+    DARK_BLUE = "\033[38;2;72;0;255m"; #DARK BLUE
+    ROSY_PINK = "\033[38;2;255;0;162m"; #ROSY PINK
+    BROWN = "\033[38;2;135;82;62m"; #BROWN
+    FOREST_GREEN = "\033[38;2;62;135;81m"; #FOREST GREEN
+    BANANA_YELLOW = "\033[38;2;240;238;113m"; #BANANA YELLOW
+    DARK_RED = "\033[38;2;145;40;16m"; #DARK RED
+    LIGHT_PINK = "\033[38;2;255;153;240m"; #LIGHT PINK
+        
+    # StrikeOut
+    BLACK_STRIKE = "\033[9;30m";   # BLACK
+    RED_STRIKE = "\033[9;31m";     # RED
+    GREEN_STRIKE = "\033[9;32m";   # GREEN
+    YELLOW_STRIKE = "\033[9;33m";  # YELLOW
+    BLUE_STRIKE = "\033[9;34m";    # BLUE
+    PURPLE_STRIKE = "\033[9;35m";  # PURPLE
+    CYAN_STRIKE = "\033[9;36m";    # CYAN
+    WHITE_STRIKE = "\033[9;37m";   # WHITE
+    
+    #Italic
+    BLACK_ITALIC = "\033[3;30m";   # BLACK
+    RED_ITALIC = "\033[3;31m";     # RED
+    GREEN_ITALIC = "\033[3;32m";   # GREEN
+    YELLOW_ITALIC = "\033[3;33m";  # YELLOW
+    BLUE_ITALIC = "\033[3;34m";    # BLUE
+    PURPLE_ITALIC = "\033[3;35m";  # PURPLE
+    CYAN_ITALIC = "\033[3;36m";    # CYAN
+    WHITE_ITALIC = "\033[3;37m";   # WHITE
+
+    # Bold
+    BLACK_BOLD = "\033[1;30m";  # BLACK
+    RED_BOLD = "\033[1;31m";    # RED
+    GREEN_BOLD = "\033[1;32m";  # GREEN
+    YELLOW_BOLD = "\033[1;33m"; # YELLOW
+    BLUE_BOLD = "\033[1;34m";   # BLUE
+    PURPLE_BOLD = "\033[1;35m"; # PURPLE
+    CYAN_BOLD = "\033[1;36m";   # CYAN
+    WHITE_BOLD = "\033[1;37m";  # WHITE
+
+    # Underline
+    BLACK_UNDERLINED = "\033[4;30m";  # BLACK
+    RED_UNDERLINED = "\033[4;31m";    # RED
+    GREEN_UNDERLINED = "\033[4;32m";  # GREEN
+    YELLOW_UNDERLINED = "\033[4;33m"; # YELLOW
+    BLUE_UNDERLINED = "\033[4;34m";   # BLUE
+    PURPLE_UNDERLINED = "\033[4;35m"; # PURPLE
+    CYAN_UNDERLINED = "\033[4;36m";   # CYAN
+    WHITE_UNDERLINED = "\033[4;37m";  # WHITE
+
+    # Background
+    BLACK_BACKGROUND = "\033[40m";  # BLACK
+    RED_BACKGROUND = "\033[41m";    # RED
+    GREEN_BACKGROUND = "\033[42m";  # GREEN
+    YELLOW_BACKGROUND = "\033[43m"; # YELLOW
+    BLUE_BACKGROUND = "\033[44m";   # BLUE
+    PURPLE_BACKGROUND = "\033[45m"; # PURPLE
+    CYAN_BACKGROUND = "\033[46m";   # CYAN
+    WHITE_BACKGROUND = "\033[47m";  # WHITE
+    LIGHT_PURPLE_BACKGROUND = "\033[48;2;200;0;200m"; #LIGHT PURPLE
+    TEAL_BACKGROUND = "\033[48;2;0;225;221m"; #TEAL
+    ORANGE_BACKGROUND = "\033[48;2;225;153;0m"; #ORANGE
+    LIGHT_GREEN_BACKGROUND = "\033[48;2;136;255;0m"; #LIGHT GREEN
+    LIGHT_BLUE_BACKGROUND = "\033[48;2;120;172;255m"; #LIGHT BLUE
+    DARK_BLUE_BACKGROUND = "\033[48;2;72;0;255m"; #DARK BLUE
+    ROSY_PINK_BACKGROUND = "\033[48;2;255;0;162m"; #ROSY PINK
+    BROWN_BACKGROUND = "\033[48;2;135;82;62m"; #BROWN
+    FOREST_GREEN_BACKGROUND = "\033[48;2;62;135;81m"; #FOREST GREEN
+    BANANA_YELLOW_BACKGROUND = "\033[48;2;240;238;113m"; #BANANA YELLOW
+    DARK_RED_BACKGROUND = "\033[48;2;145;40;16m"; #DARK RED
+    LIGHT_PINK_BACKGROUND = "\033[48;2;255;153;240m"; #LIGHT PINK
+
+    # High Intensity
+    BLACK_BRIGHT = "\033[0;90m";  # BLACK
+    RED_BRIGHT = "\033[0;91m";    # RED
+    GREEN_BRIGHT = "\033[0;92m";  # GREEN
+    YELLOW_BRIGHT = "\033[0;93m"; # YELLOW
+    BLUE_BRIGHT = "\033[0;94m";   # BLUE
+    PURPLE_BRIGHT = "\033[0;95m"; # PURPLE
+    CYAN_BRIGHT = "\033[0;96m";   # CYAN
+    WHITE_BRIGHT = "\033[0;97m";  # WHITE
+
+    # Bold High Intensity
+    BLACK_BOLD_BRIGHT = "\033[1;90m"; # BLACK
+    RED_BOLD_BRIGHT = "\033[1;91m";   # RED
+    GREEN_BOLD_BRIGHT = "\033[1;92m"; # GREEN
+    YELLOW_BOLD_BRIGHT = "\033[1;93m";# YELLOW
+    BLUE_BOLD_BRIGHT = "\033[1;94m";  # BLUE
+    PURPLE_BOLD_BRIGHT = "\033[1;95m";# PURPLE
+    CYAN_BOLD_BRIGHT = "\033[1;96m";  # CYAN
+    WHITE_BOLD_BRIGHT = "\033[1;97m"; # WHITE
+
+    # High Intensity backgrounds
+    BLACK_BACKGROUND_BRIGHT = "\033[0;100m";# BLACK
+    RED_BACKGROUND_BRIGHT = "\033[0;101m";# RED
+    GREEN_BACKGROUND_BRIGHT = "\033[0;102m";# GREEN
+    YELLOW_BACKGROUND_BRIGHT = "\033[0;103m";# YELLOW
+    BLUE_BACKGROUND_BRIGHT = "\033[0;104m";# BLUE
+    PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; # PURPLE
+    CYAN_BACKGROUND_BRIGHT = "\033[0;106m";  # CYAN
+    WHITE_BACKGROUND_BRIGHT = "\033[0;107m";   # WHITE   
